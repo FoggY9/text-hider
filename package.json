@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hider": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hider": "node index.js"
   },
   "keywords": [],
   "author": "",

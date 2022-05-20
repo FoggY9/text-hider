@@ -195,7 +195,3 @@ function showit(inputText){
   let result = text.join('')
   return result;
 }
-
-readline.question(`type close or stop to exit\n`, inputText => {
-  if(inputText.toLowerCase() == 'close' || inputText.toLowerCase() == 'stop' || inputText.toLowerCase() == 'quit' || inputText.toLowerCase() == 'exit')process.exit(1);
-    })
