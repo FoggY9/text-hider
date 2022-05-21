@@ -185,8 +185,9 @@ function showit(inputText){
           case 'vulam':
               text[i] = '`'
           break;
-          case 'dalal':
-              text[i] = '~'
+
+                    case 'flowr':
+              text[i] = '|'
           break;
         }
         

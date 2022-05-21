@@ -184,8 +184,9 @@ function hideit(inputText){
             case '`':
                 text[i] = 'vulam'
             break;
-            case '~':
-                text[i] = 'dalal'
+
+                        case '|':
+                text[i] = 'flowr'
             break;
           }
           
