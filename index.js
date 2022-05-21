@@ -1,404 +1,395 @@
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
+const readline = require('readline').createInterface({ input: process.stdin, output: process.stdout, });
 
   readline.question(`what do you want?, unhide or hide, type unhide or hide below \n`, inputText => {
-    if(inputText.toLowerCase() == 'show' ){
-        hide()
-    }
-    else{
-        unhide();
-    }
-   });
+    if(inputText.toLowerCase() == 'hide' ){hide();}else{unhide();}});
 function hide(){
     readline.question(`what do you want to hide? paste it below \n`, inputText => {
-        let res =hideit(inputText);
-        console.log(`copy the text below and save it anywhere else->\n`,res);
-        readline.close();
+        let res =hideit(inputText);console.log(`copy the text below and save it anywhere else->\n`,res);readline.close();
        });
 }
 function unhide(){
     readline.question(`what do you want to unhide? paste it below \n`, inputText => {
-        let res =showit(inputText);
-        console.log(`here is your text below->\n`,res);
-        readline.close();
+        let res =unhideit(inputText);console.log(`here is your text below->\n`,res);readline.close();
        });
 }
-var wallchars = ['%', '1', '3', '7', 'h', 't'];
-
    function hideit(inputText){
 
-    let text = inputText.toLowerCase().split('');
+    let text = inputText.toLowerCase().split("");
     for(let i in text){
       switch(text[i]) {
             case 'a':
-            text[i] = 'dolfu'
+            text[i] = 'y9'
             break;
             case 'b':
-            text[i] = 'selun'
+            text[i] = '#4'
             break;
             case 'c':
-            text[i] = 'latir'
+            text[i] = '0.'
             break;
             case 'd':
-            text[i] = 'ameno'
+            text[i] = '0*'
             break;
             case 'e':
-            text[i] = 'horro'
+            text[i] = ')2'
             break;
             case 'f':
-            text[i] = 'gta 5'
+            text[i] = '5&'
             break;
             case 'g':
-            text[i] = 'weebs'
+            text[i] = '8x'
             break;
             case 'h':
-            text[i] = 'zones'
+            text[i] = '^n'
             break;
             case 'i':
-            text[i] = 'waifu'
+            text[i] = 's!'
             break;
             case 'j':
-            text[i] = 'vodro'
+            text[i] = '$v'
             break;
             case 'k':
-            text[i] = 'vondo'
+            text[i] = 'lf'
             break;
             case 'l':
-            text[i] = 'noori'
+            text[i] = 'g^'
             break;
             case 'm':
-            text[i] = 'gamer'
+            text[i] = 'b8'
             break;
             case 'n':
-            text[i] = 'anime'
+            text[i] = '*m'
             break;
             case 'o':
-            text[i] = 'sound'
+            text[i] = '/v'
             break;
             case 'p':
-            text[i] = 'boxes'
+            text[i] = '5)'
             break;
             case 'q':
-            text[i] = 'donky'
+            text[i] = '|;'
             break;
             case 'r':
-            text[i] = 'homie'
+            text[i] = 'c.'
             break;
             case 's':
-            text[i] = 'dinku'
+            text[i] = '&.'
             break;
             case 't':
-            text[i] = 'zyflo'
+            text[i] = '#.'
             break;
             case 'u':
-            text[i] = 'romio'
+            text[i] = 'k&'
             break;
             case 'v':
-            text[i] = 'falud'
+            text[i] = 'a#'
             break;
             case 'w':
-            text[i] = 'fexo5'
+            text[i] = '4r'
             break;
             case 'x':
-            text[i] = 'seclo'
+            text[i] = '9x'
             break;
             case 'y':
-            text[i] = 'param'
+            text[i] = '6.'
             break;
             case 'z':
-            text[i] = 'miner'
+            text[i] = '5.'
             break;
             case '-':
-            text[i] = 'hater'
+            text[i] = 'ew'
             break;
             case '_':
-            text[i] = 'lover'
+            text[i] = 'q;'
             break;
             case '/':
-            text[i] = 'color'
+            text[i] = 'l:'
             break;
             case '+':
-            text[i] = 'space'
+            text[i] = 'o4'
             break;
             case '-':
-            text[i] = 'jump6'
+            text[i] = 'j!'
             break;
             case '^':
-            text[i] = 'sunset'
+            text[i] = '!;'
             break;
             case '%':
-            text[i] = 'notch'
+            text[i] = ':f'
             break;
             case '$':
-            text[i] = 'pulse'
+            text[i] = '?#'
             break;
             case '@':
-            text[i] = 'choco'
+            text[i] = '!)'
             break;
             case '!':
-            text[i] = 'frends'
+            text[i] = '<!'
             break;
             case '#':
-            text[i] = 'froze'
+            text[i] = '>^'
             break;
             case '&':
-            text[i] = 'afsos'
+            text[i] = '9<'
             break;
             case '=':
-            text[i] = 'mango'
+            text[i] = '/#'
             break;
             case '(':
-            text[i] = 'yello'
+            text[i] = 'g?'
             break;
             case ')':
-            text[i] = 'apple'
+            text[i] = '@2'
             break;
             case '{':
-            text[i] = 'shams'
+            text[i] = ';>'
             break;
             case '}':
-            text[i] = 'volko'
+            text[i] = '@$'
             break;
             case '[':
-            text[i] = 'pablo'
+            text[i] = '^^'
             break;
             case ']':
-            text[i] = 'belug'
+            text[i] = '::'
             break;
             case ':':
-            text[i] = 'drive'
+            text[i] = ';;'
             break;
             case ';':
-            text[i] = 'swimm'
+            text[i] = 'm/'
             break;
             case '?':
-            text[i] = 'falls'
+            text[i] = '*/'
             break;
             case '<':
-            text[i] = 'lands'
+            text[i] = '_-'
             break;
             case '>':
-            text[i] = 'socks'
+            text[i] = '_?'
             break;
             case ',':
-            text[i] = 'deads'
+            text[i] = '/_'
             break;
             case '.':
-            text[i] = 'works'
+            text[i] = '=>'
             break;
             case `"`:
-            text[i] = 'acids'
+            text[i] = '+?'
             break;
             case `'`:
-            text[i] = 'natur'
+            text[i] = '=#'
             break;
             case ` `:
-            text[i] = 'butal'
+            text[i] = '}>'
             break;
             case `*`:
-            text[i] = 'salam'
+            text[i] = '+.'
             break;
             case '`':
-                text[i] = 'vulam'
+                text[i] = '/+'
             break;
-            case '~':
-                text[i] = 'dalal'
+          
+              case '|':
+                text[i] = '~)'
             break;
           }
-          
     }
-    
-    
-    let version = '1.1'
-    let result = version + '|' + text.join('|')
-return result;
+    console.log(text)
+let result = [];let wallchars = ['%', '1', '3', '7', 'h', 't'];
+    for(let i = 0; i<text.length;i++){
+        result.push(text[i]);result.push(wallchars[Math.floor(Math.random() * (5 - 0 + 1)+0)])
+        console.log("res 2",result)
+        
 }
-function showit(inputText){
+return ".21" + result.join('');
+}
+function unhideit(inputText){
 
-    let text = inputText.toLowerCase().split('|');
+    let text = inputText.toLowerCase().replace(/(\%|1|3|7|h|t)/g, '|').split('|');
     text[0] = '';
+    console.log(text)
     for(let i in text){
       switch(text[i]) {
-            case 'dolfu':
+            case 'y9':
             text[i] = 'a'
             break;
-            case 'selun':
+            case '#4':
             text[i] = 'b'
             break;
-            case 'latir':
+            case '0.':
             text[i] = 'c'
             break;
-            case 'ameno':
+            case '0*':
             text[i] = 'd'
             break;
-            case 'horro':
+            case ')2':
             text[i] = 'e'
             break;
-            case 'gta 5':
+            case '5&':
             text[i] = 'f'
             break;
-            case 'weebs':
+            case '8x':
             text[i] = 'g'
             break;
-            case 'zones':
+            case '^n':
             text[i] = 'h'
             break;
-            case 'waifu':
+            case 's!':
             text[i] = 'i'
             break;
-            case 'vodro':
+            case '$v':
             text[i] = 'j'
             break;
-            case 'vondo':
+            case 'lf':
             text[i] = 'k'
             break;
-            case 'noori':
+            case 'g^':
             text[i] = 'l'
             break;
-            case 'gamer':
+            case 'b8':
             text[i] = 'm'
             break;
-            case 'anime':
+            case '*m':
             text[i] = 'n'
             break;
-            case 'sound':
+            case '/v':
             text[i] = 'o'
             break;
-            case 'boxes':
+            case '5)':
             text[i] = 'p'
             break;
-            case 'donky':
+            case '|;':
             text[i] = 'q'
             break;
-            case 'homie':
+            case 'c.':
             text[i] = 'r'
             break;
-            case 'dinku':
+            case '&.':
             text[i] = 's'
             break;
-            case 'zyflo':
+            case '#.':
             text[i] = 't'
             break;
-            case 'romio':
+            case 'k&':
             text[i] = 'u'
             break;
-            case 'falud':
+            case 'a#':
             text[i] = 'v'
             break;
-            case 'fexo5':
+            case '4r':
             text[i] = 'w'
             break;
-            case 'seclo':
+            case '9x':
             text[i] = 'x'
             break;
-            case 'param':
+            case '6.':
             text[i] = 'y'
             break;
-            case 'miner':
+            case '5.':
             text[i] = 'z'
             break;
-            case 'hater':
+            case 'ew':
             text[i] = '-'
             break;
-            case 'lover':
+            case 'q;':
             text[i] = '_'
             break;
-            case 'color':
+            case 'l:':
             text[i] = '/'
             break;
-            case 'space':
+            case 'o4':
             text[i] = '+'
             break;
-            case 'jump6':
+            case ' j!':
             text[i] = '-'
             break;
-            case 'sunset':
+            case '!;':
             text[i] = '^'
             break;
-            case 'notch':
+            case ':f':
             text[i] = '%'
             break;
-            case 'pulse':
+            case '?#':
             text[i] = '$'
             break;
-            case 'choco':
+            case '!)':
             text[i] = '@'
             break;
-            case 'frends':
+            case '<!':
             text[i] = '!'
             break;
-            case 'froze':
+            case '>^':
             text[i] = '#'
             break;
-            case 'afsos':
+            case '9<':
             text[i] = '&'
             break;
-            case 'mango':
+            case '/#':
             text[i] = '='
             break;
-            case 'yello':
+            case 'g?':
             text[i] = '('
             break;
-            case 'apple':
+            case '@2':
             text[i] = ')'
             break;
-            case 'shams':
+            case ';>':
             text[i] = '{'
             break;
-            case 'volko':
+            case '@$':
             text[i] = '}'
             break;
-            case 'pablo':
+            case '^^':
             text[i] = '['
             break;
-            case 'belug':
+            case '::':
             text[i] = ']'
             break;
-            case 'drive':
+            case ';;':
             text[i] = ':'
             break;
-            case 'swimm':
+            case 'm/':
             text[i] = ';'
             break;
-            case 'falls':
+            case '*/':
             text[i] = '?'
             break;
-            case 'lands':
+            case '_-':
             text[i] = '<'
             break;
-            case 'socks':
+            case '_?':
             text[i] = '>'
             break;
-            case 'deads':
+            case '/_':
             text[i] = ','
             break;
-            case 'works':
+            case '=>':
             text[i] = '.'
             break;
-            case `acids`:
+            case `+?`:
             text[i] = `"`
             break;
-            case `natur`:
+            case `=#`:
             text[i] = `'`
             break;
-            case `butal`:
+            case `}>`:
             text[i] = ' '
             break;
-            case `salam`:
+            case `+.`:
             text[i] = '*'
             break;
-            case 'vulam':
+            case '/+':
                 text[i] = '`'
             break;
-            case 'dalal':
-                text[i] = '~'
-            break;
+
+            case '~)':
+                text[i] = '|'
+            break;            
           }
           
     }
-    
-    let result = text.join('')
-    return result;
-  }
+    let result = text.join('');
+return result;
+}
+   //
+  
