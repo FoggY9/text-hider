@@ -1,58 +1,58 @@
-'a':'dolfu'
-'b':'selun'
-'c':'latir'
-'d':'ameno'
-'e':'horro'
-'f':'gta 5'
-'g':'weebs'
-'h':'zones'
-'i':'waifu'
-'j':'vodro'
-'k':'vondo'
-'l':'noori'
-'m':'gamer'
-'n':'anime'
-'o':'sound'
-'p':'boxes'
-'q':'donky'
-'r':'homie'
-'s':'dinku'
-'t':'zyflo'
-'u':'romio'
-'v':'falud'
-'w':'fexo5'
-'x':'seclo'
-'y':'param'
-'z':'miner'
-'-':'hater'
-'_':'lover'
-'/':'color'
-'+':'space'
-'-':'jump6'
-'^':'sunset'
-'%':'notch'
-'$':'pulse'
-'@':'choco'
-'!':'frends'
-'#':'froze'
-'&':'afsos'
-'=':'mango'
-'(':'yello'
-')':'apple'
-'{':'shams'
-'}':'volko'
-'[':'pablo'
-']':'belug'
-':':'drive'
-';':'swimm'
-'?':'falls'
-'<':'lands'
-'>':'socks'
-',':'deads'
-'.':'works'
-`"`:'acids'
-`'`:'natur'
-` `:'butal'
-`*`:'salam'
-"`":'vulam'
-'~':'dalal'
+a y7
+b #4
+c 0
+d 0*
+e )2
+f 5&
+g 8x
+h ^n
+i s!
+j $v
+k lf
+l g^
+m b8
+n *m
+o /v
+p 5)
+q |;
+r c
+s &
+t #
+u k&
+v a#
+w 4r
+x 7x
+y 6
+z 5
+- ew
+_ q;
+/ l:
++ o4
+- j!
+^ !;
+% :f
+$ ?#
+@ !)
+! <!
+# >^
+& 9<
+= /#
+( g?
+) @2
+{ ;>
+} @$
+[ ^^
+] ::
+: ;;
+; m/
+? */
+< _-
+> _?
+, /_
+. =>
+" +?
+' =#
+space }>
+* +
+` /+
+~ g+
