@@ -6,4 +6,4 @@ REQUIRED:
 
 Version: 1.2
 
-Download Link: [Link text Here](https://www.dropbox.com/s/3s767uaprtki2lf/text-hider.zip?dl=1) 
+Download Link: [click Here](https://www.dropbox.com/s/3s767uaprtki2lf/text-hider.zip?dl=1) 
