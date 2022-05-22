@@ -11,4 +11,5 @@
 <b>Guide:</b> -download, -extract, run.bat<br />
 <b>requires:</b> -windows -node
 
-Tip: all versions are in branches
+Tip: -all versions are in branches, -report bug or fork it to fix the bug,
+ thank you
