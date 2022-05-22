@@ -1,3 +1,5 @@
+<h2><center>Text Hider</center></h2>
+
 <b>Feature:</b> Hide your Personal text or links by converting it into an unknown lang
 
 <b>versions:</b> 1.1 , <b>1.2</b>
