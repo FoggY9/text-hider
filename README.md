@@ -5,3 +5,5 @@ REQUIRED:
 -node
 
 Version: 1.2
+
+Download Link: https://www.dropbox.com/s/3s767uaprtki2lf/text-hider.zip?dl=1
