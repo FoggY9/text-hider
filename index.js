@@ -1,19 +1,28 @@
-const readline = require('readline').createInterface({ input: process.stdin, output: process.stdout, });
+//infinity loop
+while(true){
+    //importing readline module
+const readline = require('readline-sync');
+ let inputText = readline.question( `what do you want?, unhide/hide, type unhide/hide below \n`);
 
-  readline.question(`what do you want?, unhide or hide, type unhide or hide below \n`, inputText => {
-    if(inputText.toLowerCase() == 'hide' ){hide();}else{unhide();}});
+    if(
+        inputText.toLowerCase() == 'hide'
+     || inputText.toLowerCase() == 'h'){hide();}
+     else if(
+         inputText.toLowerCase() == 'unhide'
+     || inputText.toLowerCase() == 'u' ){unhide();}
+     else if(
+         inputText.toLowerCase() == 'quit'
+    || inputText.toLowerCase() == 'q' ){process.exit();}
+
 function hide(){
-    readline.question(`what do you want to hide? paste it below \n`, inputText => {
-        let res =hideit(inputText);console.log(`copy the text below and save it anywhere else->\n`,res);readline.close();
-       });
-}
-function unhide(){
-    readline.question(`what do you want to unhide? paste it below \n`, inputText => {
-        let res =unhideit(inputText);console.log(`here is your text below->\n`,res);readline.close();
-       });
-}
-   function hideit(inputText){
+     let inputText = readline.question(`what do you want to hide? paste it below \n`)
+    let res = hideit(inputText); console.log(`copy the text below and save it anywhere else->\n`,res, `\n`);}
 
+function unhide(){
+    let inputText = readline.question(`what do you want to unhide? paste it below \n`)
+        let res =unhideit(inputText);console.log(`here is your text below->\n`,res, `\n`);}
+
+   function hideit(inputText){
     let text = inputText.toLowerCase().split("");
     for(let i in text){
       switch(text[i]) {
@@ -66,7 +75,7 @@ function unhide(){
             text[i] = '5)'
             break;
             case 'q':
-            text[i] = '|;'
+            text[i] = '6;'
             break;
             case 'r':
             text[i] = 'c.'
@@ -192,22 +201,47 @@ function unhide(){
               case '|':
                 text[i] = '~)'
             break;
+            case "0":
+                text[i] = "`'"
+            break; 
+            case '1':
+                text[i] = '!~'
+            break; 
+            case '2':
+                text[i] = 's$'
+            break; 
+            case '3':
+                text[i] = ':`'
+            break; 
+            case '4':
+                text[i] = '}`'
+            break; 
+            case '5':
+                text[i] = '\|'
+            break; 
+            case '6':
+                text[i] = ')('
+            break; 
+            case '7':
+                text[i] = '_`'
+            break; 
+            case '8':
+                text[i] = '~p'
+            break; 
+            case '9':
+                text[i] = '\o'
           }
     }
-    console.log(text)
+
 let result = [];let wallchars = ['%', '1', '3', '7', 'h', 't'];
     for(let i = 0; i<text.length;i++){
-        result.push(text[i]);result.push(wallchars[Math.floor(Math.random() * (5 - 0 + 1)+0)])
-        console.log("res 2",result)
-        
-}
-return ".21" + result.join('');
-}
-function unhideit(inputText){
+        result.push(text[i]);result.push(wallchars[Math.floor(Math.random() * (5 - 0 + 1)+0)])}
 
+return ".21" + result.join('');}
+
+function unhideit (inputText){
     let text = inputText.toLowerCase().replace(/(\%|1|3|7|h|t)/g, '|').split('|');
     text[0] = '';
-    console.log(text)
     for(let i in text){
       switch(text[i]) {
             case 'y9':
@@ -258,7 +292,7 @@ function unhideit(inputText){
             case '5)':
             text[i] = 'p'
             break;
-            case '|;':
+            case '6;':
             text[i] = 'q'
             break;
             case 'c.':
@@ -384,12 +418,39 @@ function unhideit(inputText){
 
             case '~)':
                 text[i] = '|'
-            break;            
+            break;         
+            case "`'":
+                text[i] = '0'
+            break; 
+            case '!~':
+                text[i] = '1'
+            break; 
+            case 's$':
+                text[i] = '2'
+            break; 
+            case ':`':
+                text[i] = '3'
+            break; 
+            case '}`':
+                text[i] = '4'
+            break; 
+            case '\|':
+                text[i] = '5'
+            break; 
+            case ')(':
+                text[i] = '6'
+            break; 
+            case '_`':
+                text[i] = '7'
+            break; 
+            case '~p':
+                text[i] = '8'
+            break; 
+            case '\o':
+                text[i] = '9'
           }
-          
     }
+
     let result = text.join('');
 return result;
-}
-   //
-  
+}}
