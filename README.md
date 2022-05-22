@@ -1,7 +1,7 @@
-Feature: hide any text by convert it into a unknown lang.
+Feature: Hide your Personal text or links by converting it into an unknown lang
 
-REQUIRED:
--windows
--node
+versions: 1.1 , 1.2
 
-Version: 1.1
+best, secure & stable version: 1.2
+
+1.2 Downloadable link: [click Here](https://www.dropbox.com/s/3s767uaprtki2lf/text-hider.zip?dl=1)
