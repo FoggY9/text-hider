@@ -9,7 +9,7 @@
 <b>1.2 Downloadable link:</b> [click Here](https://www.dropbox.com/s/bj20o1b0x1gnawy/Text-Hider.zip?dl=1)
 
 <b>Guide:</b> -download, -extract, run.bat<br />
-<b>requires:</b> -windows -node
+<b>requires:</b> -windows -terminal -node
 
 Tip: -all versions are in branches, -report bug or fork it to fix the bug,
  thank you
