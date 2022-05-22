@@ -217,7 +217,7 @@ function unhide(){
                 text[i] = '}`'
             break; 
             case '5':
-                text[i] = '\|'
+                text[i] = '\\'
             break; 
             case '6':
                 text[i] = ')('
@@ -434,7 +434,7 @@ function unhideit (inputText){
             case '}`':
                 text[i] = '4'
             break; 
-            case '\|':
+            case '\\':
                 text[i] = '5'
             break; 
             case ')(':
