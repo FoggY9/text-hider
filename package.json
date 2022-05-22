@@ -7,7 +7,7 @@
     "hider": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "FoggY",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
