@@ -5,3 +5,5 @@ versions: 1.1 , 1.2
 best, secure & stable version: 1.2
 
 1.2 Downloadable link: [click Here](https://www.dropbox.com/s/3s767uaprtki2lf/text-hider.zip?dl=1)
+
+all versions are in branches
