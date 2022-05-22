@@ -1,4 +1,4 @@
-Feature: Hide your Personal text or links by converting it into an unknown lang
+<b>Feature:</b> Hide your Personal text or links by converting it into an unknown lang
 
 versions: 1.1 , 1.2
 
