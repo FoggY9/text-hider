@@ -11,6 +11,7 @@
 <b>requires:</b> -Windows, -any Terminal/console, -Node
 
 <h3>Guide</h3>
+
 note: if you dont have [Node.js](https://nodejs.org/en/) installed on your device, then download that first, otherwise it wont work </br></br>
 </b>-Download the file from the downloadable link <br />-Extract that downloaded file <br />-Run the run.bat file <br />& you are good to go<br />
 
