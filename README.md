@@ -12,8 +12,7 @@
 
 <h4>Guide</h4>
 note: <i>if you dont have [Node.js](https://nodejs.org/en/) installed on your device, then download that first, otherwise it wont work</i>
-<b>Guide:</b>-Download the file from the downloadable link, <br />-Extract that downloaded file, <br />-Run the run.bat file <br />& you are good to go<br />
+<b>Guide:</b>-Download the file from the downloadable link <br />-Extract that downloaded file <br />-Run the run.bat file <br />& you are good to go<br />
 
 </br></br>
-Tip: -all versions are in branches, -report bug or fork it to fix the bug,
- thank you
+Tip: -all versions are in branches, -report bug or fork it to fix the bug, thank you
