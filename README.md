@@ -9,6 +9,7 @@
 <b>1.2 Downloadable link:</b> [click Here](https://www.dropbox.com/s/bj20o1b0x1gnawy/Text-Hider.zip?dl=1)
 
 <b>requires:</b> -Windows, -any Terminal/console, -Node
+
 note: <i>if you dont have [Node.js](https://nodejs.org/en/) installed on your device, then download that first, otherwise it wont work</i>
 <b>Guide:</b>-Download the file from the downloadable link, <br />-Extract that downloaded file, <br />-Run the run.bat file <br />& you are good to go<br />
 
