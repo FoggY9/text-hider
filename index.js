@@ -23,7 +23,7 @@ function unhide(){
         let res =unhideit(inputText);console.log(`here is your text below->\n`,res, `\n`);}
 
    function hideit(inputText){
-    let text = inputText.toLowerCase().split("");
+    let text = inputText.split("");
     for(let i in text){
       switch(text[i]) {
             case 'a':
@@ -197,7 +197,6 @@ function unhide(){
             case '`':
                 text[i] = '/+'
             break;
-          
               case '|':
                 text[i] = '~)'
             break;
@@ -230,6 +229,86 @@ function unhide(){
             break; 
             case '9':
                 text[i] = '\o'
+                break;
+                case 'a':
+                    text[i] = 'y9b'
+                    break;
+                    case 'b':
+                    text[i] = '#4c'
+                    break;
+                    case 'c':
+                    text[i] = '0.d'
+                    break;
+                    case 'd':
+                    text[i] = '0*e'
+                    break;
+                    case 'e':
+                    text[i] = ')2f'
+                    break;
+                    case 'f':
+                    text[i] = '5&g'
+                    break;
+                    case 'g':
+                    text[i] = '8xh'
+                    break;
+                    case 'h':
+                    text[i] = '^ni'
+                    break;
+                    case 'i':
+                    text[i] = 's!j'
+                    break;
+                    case 'j':
+                    text[i] = '$vk'
+                    break;
+                    case 'k':
+                    text[i] = 'lfl'
+                    break;
+                    case 'l':
+                    text[i] = 'g^m'
+                    break;
+                    case 'm':
+                    text[i] = 'b8n'
+                    break;
+                    case 'n':
+                    text[i] = '*mo'
+                    break;
+                    case 'o':
+                    text[i] = '/vp'
+                    break;
+                    case 'p':
+                    text[i] = '5)q'
+                    break;
+                    case 'q':
+                    text[i] = '6;r'
+                    break;
+                    case 'r':
+                    text[i] = 'c.s'
+                    break;
+                    case 's':
+                    text[i] = '&.t'
+                    break;
+                    case 't':
+                    text[i] = '#.u'
+                    break;
+                    case 'u':
+                    text[i] = 'k&v'
+                    break;
+                    case 'v':
+                    text[i] = 'a#w'
+                    break;
+                    case 'w':
+                    text[i] = '4rx'
+                    break;
+                    case 'x':
+                    text[i] = '9xy'
+                    break;
+                    case 'y':
+                    text[i] = '6.z'
+                    break;
+                    case 'z':
+                    text[i] = '5.a'
+                    break;
+            
           }
     }
 
@@ -240,7 +319,7 @@ let result = [];let wallchars = ['%', '1', '3', '7', 'h', 't'];
 return ".21" + result.join('');}
 
 function unhideit (inputText){
-    let text = inputText.toLowerCase().replace(/(\%|1|3|7|h|t)/g, '|').split('|');
+    let text = inputText.replace(/(\%|1|3|7|h|t)/g, '|').split('|');
     text[0] = '';
     for(let i in text){
       switch(text[i]) {
@@ -448,6 +527,85 @@ function unhideit (inputText){
             break; 
             case '\o':
                 text[i] = '9'
+                break;
+                case 'y9b':
+                    text[i] = 'a'
+                    break;
+                    case '#4c':
+                    text[i] = 'b'
+                    break;
+                    case '0.d':
+                    text[i] = 'c'
+                    break;
+                    case '0*e':
+                    text[i] = 'd'
+                    break;
+                    case ')2f':
+                    text[i] = 'e'
+                    break;
+                    case '5&g':
+                    text[i] = 'f'
+                    break;
+                    case '8xh':
+                    text[i] = 'g'
+                    break;
+                    case '^ni':
+                    text[i] = 'h'
+                    break;
+                    case 's!j':
+                    text[i] = 'i'
+                    break;
+                    case '$vk':
+                    text[i] = 'j'
+                    break;
+                    case 'lfl':
+                    text[i] = 'k'
+                    break;
+                    case 'g^m':
+                    text[i] = 'l'
+                    break;
+                    case 'b8n':
+                    text[i] = 'm'
+                    break;
+                    case '*mo':
+                    text[i] = 'n'
+                    break;
+                    case '/vp':
+                    text[i] = 'o'
+                    break;
+                    case '5)q':
+                    text[i] = 'p'
+                    break;
+                    case '6;r':
+                    text[i] = 'q'
+                    break;
+                    case 'c.s':
+                    text[i] = 'r'
+                    break;
+                    case '&.t':
+                    text[i] = 's'
+                    break;
+                    case '#.u':
+                    text[i] = 't'
+                    break;
+                    case 'k&v':
+                    text[i] = 'u'
+                    break;
+                    case 'a#w':
+                    text[i] = 'v'
+                    break;
+                    case '4rx':
+                    text[i] = 'w'
+                    break;
+                    case '9xy':
+                    text[i] = 'x'
+                    break;
+                    case '6.z':
+                    text[i] = 'y'
+                    break;
+                    case '5.a':
+                    text[i] = 'z'
+                    break;
           }
     }
 
